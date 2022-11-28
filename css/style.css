@@ -32,6 +32,11 @@ ul {
 ul {
     list-style: none;
 }
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 :root {
     --primary-text-color: #757575;
     --secondary-text-color: #212121;
@@ -46,7 +51,7 @@ ul {
   /* Navigatzion */
 .headr {
     background-color: var(--button-text-color);
-    border: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
 }
 .header-title .container {
     border-width: 0 0 1px 0;
@@ -81,6 +86,7 @@ ul {
 }
 .site-nav {
     display: flex;
+    font-weight: 500 ;
 }
 .site-nav .item:not(:last-child) {
     margin-right: 50px;
@@ -120,7 +126,6 @@ ul {
 
 
 .hero {
-    margin-top: 0;
     background-color: var(--hero-color);
     text-align: center;
 }
@@ -129,6 +134,7 @@ ul {
     padding-bottom: 200px;
   }
 .hero-title {
+    margin: auto;
     margin-bottom: 30px;
     color: var(--button-text-color);
     font-weight: 900;
@@ -136,13 +142,13 @@ ul {
     line-height: calc(60 / 44);
     letter-spacing: 0.06em;
     text-align: center;
+    text-transform: uppercase;
+    width: 692px;
 }
 .button {
     display: inline;
     margin-left: auto;
     margin-right: auto;
-    justify-content: center;
-    align-items: center;
     color: var(--button-text-color);
     background-color: var(--accent-color);
     cursor: pointer;
@@ -233,15 +239,14 @@ h2.what-wedo {
 .what-wedo-list > .item {
     width: 370px;
 }
-.h2.team {
-    margin-bottom: 50px;
-}
+
 .team {
     color: var(--secondary-text-color);
     font-size: 36px;
     line-height: calc(42 / 36);
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
 }
 .section {
     padding: 94px 0;
@@ -261,7 +266,6 @@ h2.what-wedo {
     display: flex;
 }
 .team-list > .item {
-    width: 270px;
     border-left: 1px solid #eeeeee;
     border-right: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
@@ -311,7 +315,6 @@ a.footer-webstudio {
     color: var(--button-text-color);
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
-    margin-bottom: 9px;
 }
   
 .adress .adress-mail {
@@ -319,12 +322,14 @@ a.footer-webstudio {
     color: rgba(255, 255, 255, 0.6);
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
-    margin-bottom: 9px;
 }
 .adress .adress-tel {
     color: rgba(255, 255, 255, 0.6);
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
+}
+.adress-info{
+    margin-bottom: 9px;  
 }
   
 .adress-town:hover,
@@ -397,8 +402,9 @@ a.footer-webstudio {
     padding-bottom: 20px;
     border: 1px solid #eeeeee;
     border-width: 0 1px 1px 1px;
+    
 }
-  
+
 .works-list img{
     display:block;
 }
