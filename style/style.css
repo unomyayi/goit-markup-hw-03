@@ -111,15 +111,6 @@ top: 32px;
     color: var(--main--color);
     
 }
-.address-foot-footer:hover,
-.address-foot-footer:focus,
-.address-email-footer:hover,
-.address-email-footer:focus,
-.address-tel-footer:hover,
-.address-tel-footer:focus{
-    color: var(--main--color);
-    
-}
 .address-foot{
     color: var(--white-color);
 }
@@ -344,9 +335,9 @@ top: 966px;
     margin-bottom: 50px;
     width: 366px;
     height: 42px;
-    margin-left: 617px;
+    left: 617px;
     top: 966px;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -384,7 +375,7 @@ top: 1058px;
     }
 .back-team{
     background-color:var(--team--color);
-    padding-top: 668px;
+
     
 
 }
@@ -392,16 +383,21 @@ top: 1058px;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
+text-align: center;
 letter-spacing: 0.03em;
 color: var(--logo-color);
-margin-left: 668px;
-margin-right: 668px;
+width: 1600px;
+height: 648px;
+padding-top: 668px;
+padding-bottom: 50px;
+
+
 }
 .img-team{
-list-style-type: none;
-display: flex;
+    position: absolute;
+    list-style-type: none;
 margin-left: 215px;
-margin-bottom: 1px;
+display: flex;
 
 }
 .igor{
@@ -476,36 +472,10 @@ width: 1600px;
 height: 252px;
 left: 0px;
 top: 2094px;
-}
-.address-email-footer{
-    font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-text-decoration: none;
-color: var(--cont--color);
 
-width: 231px;
-height: 21px;
-left: 215px;
-top: 2235px;
-
-}
-.address-tel-footer{
-    font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--cont--color);
-text-decoration: none;
-width: 231px;
-height: 21px;
-left: 215px;
-top: 2265px;
 }
 .but{
     list-style-type: none;
-    
 }
 
 .but:hover,
@@ -517,9 +487,6 @@ top: 2265px;
 }
 .butt{
     list-style: none;
-    display: flex;
-  justify-content: center;
-
 }
 .but{
 font-family: inherit;
@@ -528,19 +495,6 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.85;
 letter-spacing: 0.03em;
-margin-right: 30px;
-border-radius: 4px;
-transform: none;
-
-
-}
-.cards{
-display: flex;
-align-items: center;
-    flex-wrap: wrap;
-  justify-content: space-between;
-  max-width:auto;
-  max-width: 75%;
 }
 .techno{
     font-weight: 700;
