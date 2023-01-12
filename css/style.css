@@ -41,11 +41,11 @@ img {
     --primary-text-color: #757575;
     --secondary-text-color: #212121;
     --button-text-color: #ffffff;
-    --accent-color: #2196f3;
-    --hero-color: #2f303a;
+    --accent-color: #4D5AE5;
+    --hero-color: #2E2F42;
     --back-color:#f5f4f2;
     --logo-color:#000;
-    --but-color: #188CE8;
+    --but-color: #4D5AE5;
 }
 
   /* Navigatzion */
@@ -65,15 +65,13 @@ img {
     margin-right: 93px;
     padding-top: 24px;
     padding-bottom: 25px;
-}
+    color: var(--logo-color);
+    font-weight: 700;
+    text-transform: uppercase;
+}  
 .logo-web {
     color: var(--accent-color);
-  
-    font-weight: 700;
-}
-.logo-studio {
-    color: var(--logo-color);
-  
+  text-transform: uppercase;
     font-weight: 700;
 }
 .logo-studiow {
@@ -138,11 +136,10 @@ img {
     margin-bottom: 30px;
     color: var(--button-text-color);
     font-weight: 900;
-    font-size: 44px;
+    font-size: 56px;
     line-height: calc(60 / 44);
-    letter-spacing: 0.06em;
+    letter-spacing: 0.02em;
     text-align: center;
-    text-transform: uppercase;
     width: 692px;
 }
 .button {
